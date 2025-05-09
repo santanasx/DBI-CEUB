@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="004BF3B5-B214-BF46-9910-3E98D392E9D8" name="Clientes">
+<createdBy>denys</createdBy>
+<createdTime>2025-04-13 15:14:44 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="F7D37484-590C-ACA8-F6B0-8D856E42C650">
+<createdBy>denys</createdBy>
+<createdTime>2025-04-13 15:15:01 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="48FE674E-76A7-7C1D-EECE-2DEE69AF935F">
+<createdBy>denys</createdBy>
+<createdTime>2025-04-13 15:15:33 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="EA588AF7-8EF8-F1CF-E157-4FE3601B71DA">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:31:08 UTC</createdTime>
+<generatorID>447D4E46-44A3-B5E7-B0F2-BAFCB3975A5B</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<referedAttribute>93D6328A-75FB-96FD-021E-1EE56D8472F2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

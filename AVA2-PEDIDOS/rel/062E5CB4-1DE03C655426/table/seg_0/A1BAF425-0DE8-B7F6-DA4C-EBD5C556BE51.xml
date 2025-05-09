@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1BAF425-0DE8-B7F6-DA4C-EBD5C556BE51" name="Pedidos">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>F91F0ADA-49ED-0F22-0228-F438B4691947</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeClientePedido" id="AEF73F84-8760-6014-68A7-23818E8E71EF">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>D3D28C7A-D448-31DB-984E-6A4EBB056ABA</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroPedido" id="2BD6ACE2-1C33-0BC6-BA26-E8CBE03F3212">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>EC8C5665-8B40-9BF2-3031-AE0E34A4FD51</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="6954E38E-E70B-A292-DEC1-E86CA5B49FAA">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<comment><![CDATA[Data do pedido que foi realizada a compra.]]></comment>
+<generatorID>A1696369-631B-6E2C-4043-5DF7895E9028</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="6230A244-A61F-B3D0-6031-E73594C265ED">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<comment><![CDATA[Horário do pedido que foi realizada a compra.]]></comment>
+<generatorID>293001E9-329A-2CA0-8DB7-6F47912DE1C5</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_Clientes_ID" id="853A3D0F-8CA4-6790-E21E-B74AC16D2187">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6F0A1EA-D5D2-639B-F510-873EF959DA69" referredColumn="690307FF-1E6F-FB97-BCCD-856875249B25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A4908F7-12BA-7870-FEA2-22F98058B73C" name="Pedidos_Clientes_FK">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>20C60176-746F-7035-E9BE-F13CE01633B8</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="853A3D0F-8CA4-6790-E21E-B74AC16D2187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

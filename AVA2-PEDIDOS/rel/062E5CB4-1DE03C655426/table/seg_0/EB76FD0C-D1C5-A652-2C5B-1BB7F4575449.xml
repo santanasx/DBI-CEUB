@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB76FD0C-D1C5-A652-2C5B-1BB7F4575449" name="enderecoCliente">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>A02786E6-64F5-E57F-369C-F4CAA9C9ED41</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="F6CF9F77-2361-026C-DA8F-81F6D25613F1">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>93D6328A-75FB-96FD-021E-1EE56D8472F2</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroEnderecoCliente" id="420A8C4A-91CF-A44D-EFDD-50F2921A1B1F">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>486C2270-0FA4-3EC8-79DA-1EE28616A24A</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEnderecoCliente" id="1D7AA829-53E7-24C0-B8BD-B83148A57D00">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>40F0802D-AF10-B8AB-BA7F-080F8CA80FDB</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnederecoCliente" id="BB23BD6F-845A-C677-43C8-4237CCCD7B10">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>91053BC5-97DA-776F-92B8-79474C105BA1</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="1C6780D0-18B9-8072-9BDF-FFA5F8E31A4B">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>E8048C1A-7438-7645-CB8F-FD8D91F51F4A</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="4B988DB0-B931-219C-F1EE-658960E2794A">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>7AA426DB-1194-069D-7045-9A43404C7B6F</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoCliente" id="30C6FCD6-D047-C971-AC04-E98BDF88BA48">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>78DA54A5-EA8F-BDBF-E321-02FE82B7FA54</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_Clientes_ID" id="7E48AA10-C5AD-83F3-D379-A175B186C818">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62355C94-8ECD-1EDD-ADF5-E7D6DB738B46" referredColumn="690307FF-1E6F-FB97-BCCD-856875249B25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B215300-8763-A961-ECE8-D6EA504E685C" name="enderecoCliente_PK">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>E2B88FD8-71AF-1B44-292A-108A0FF69349</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6CF9F77-2361-026C-DA8F-81F6D25613F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCC8E6F5-4943-5491-FB82-080E906790B3" name="enderecoCliente__IDX">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F9B1F4CE-2DD7-98BD-7FD4-9DD5F6C3BB3D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7E48AA10-C5AD-83F3-D379-A175B186C818"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E3AA521-943D-F0F9-8E09-C73F02F44933" name="enderecoCliente_Clientes_FK">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>F9B1F4CE-2DD7-98BD-7FD4-9DD5F6C3BB3D</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E48AA10-C5AD-83F3-D379-A175B186C818"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

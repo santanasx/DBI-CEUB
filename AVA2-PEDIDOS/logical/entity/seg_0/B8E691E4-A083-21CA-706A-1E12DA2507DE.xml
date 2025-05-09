@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8E691E4-A083-21CA-706A-1E12DA2507DE" name="TelefonesClientes">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:21:18 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="65DB74ED-472E-9986-89BF-93C8EDB1BD70">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:21:51 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="F11A9783-6F8F-DFF9-291E-DE493038225E">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:22:00 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneCliente" id="BB3C31F2-C8B1-F65F-3107-28F540D59282">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:22:19 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EED38D3-6DFF-D6A5-0B5F-1149819C8905" name="TelefonesClientes PK">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:21:58 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65DB74ED-472E-9986-89BF-93C8EDB1BD70</attributeRef>
+<attributeRef>F11A9783-6F8F-DFF9-291E-DE493038225E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

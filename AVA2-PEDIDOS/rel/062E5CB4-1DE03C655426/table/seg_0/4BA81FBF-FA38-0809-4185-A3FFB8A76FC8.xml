@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BA81FBF-FA38-0809-4185-A3FFB8A76FC8" name="Clientes">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>004BF3B5-B214-BF46-9910-3E98D392E9D8</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_ID" id="690307FF-1E6F-FB97-BCCD-856875249B25">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="nomeCliente" id="C221411D-B66B-959F-301C-88958E80B21F">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>48FE674E-76A7-7C1D-EECE-2DEE69AF935F</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoCliente_cpfCliente" id="57B7F90B-0722-A091-BD0B-C19BB2E14C47">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>08C36C1B-AA97-9D32-9418-555C2ADBE545</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70DB10DE-988E-A215-8D04-515F9A9AAE98" referredColumn="F6CF9F77-2361-026C-DA8F-81F6D25613F1"/>
+</associations>
+</Column>
+<Column name="enderecoCliente_cpfCliente2" id="104D0645-F520-F0C4-8897-FAFC5C319961">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:31:15 UTC</createdTime>
+<generatorID>EA588AF7-8EF8-F1CF-E157-4FE3601B71DA</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5798690-8517-A086-FD27-962B703FDABC" referredColumn="F6CF9F77-2361-026C-DA8F-81F6D25613F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0C4C6C5-62CE-54A3-06EC-5B9F943198D7" name="Clientes_PK">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="690307FF-1E6F-FB97-BCCD-856875249B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7E91D92-0A3E-D5F8-F4CC-2676E91720B0" name="Clientes__IDX">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F9B1F4CE-2DD7-98BD-7FD4-9DD5F6C3BB3D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="57B7F90B-0722-A091-BD0B-C19BB2E14C47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21DF4E5D-A316-2019-1DF1-EA302C8CA9AC" name="Clientes_enderecoCliente_FK">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:30:43 UTC</createdTime>
+<generatorID>F9B1F4CE-2DD7-98BD-7FD4-9DD5F6C3BB3D</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B7F90B-0722-A091-BD0B-C19BB2E14C47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE7B701F-1659-243A-744A-024CEB57EA4C" name="Clientes_enderecoCliente_FKv2">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-09 00:31:15 UTC</createdTime>
+<generatorID>447D4E46-44A3-B5E7-B0F2-BAFCB3975A5B</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="104D0645-F520-F0C4-8897-FAFC5C319961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
