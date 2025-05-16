@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B49E6EBF-936C-7182-343C-6B4476592A9F" name="telefoneDependente">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-16 00:33:32 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfAssociado" id="0F15B82A-189B-74D4-CA4A-9EC557E95702">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-16 00:33:50 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="14A6FCF6-3C34-768A-0676-FBEC2B4142C4">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-16 00:34:14 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfdependente" id="1D12B59C-DD1D-2C9E-DA18-FCB35172E775">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-16 00:34:32 UTC</createdTime>
+<generatorID>63F43CE9-4F22-DFC6-55C2-6712111D224C</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<referedAttribute>B24491CC-ADED-8EF5-93B7-BE78BB350BD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="E7EB80B0-276E-3B97-59AA-A7F460BCC971">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-16 00:34:32 UTC</createdTime>
+<generatorID>63F43CE9-4F22-DFC6-55C2-6712111D224C</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<referedAttribute>D33FD819-D0CF-F836-3921-E67FEE1C7CE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

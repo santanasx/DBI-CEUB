@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C84CED8-25FA-1E19-A9C7-CF0B7ED7F699" name="associado">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:32:42 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAssociado" id="E233D661-B2D2-D473-5CA6-02A0F13EEC5A">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:38:58 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="AF35CC2C-D2FC-FE5F-D111-368569928676">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:39:53 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="85CB87A0-5B62-854C-9CB2-86B3993AD07A">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:40:34 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="FF343ED8-36B6-3E14-EB1B-A01C1BA98D37">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:40:43 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="0D0C7243-F101-9E67-81A1-0E35EBB6A492">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:41:08 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="08A383B5-F48F-6B0D-AF4F-D1EAC3B57247">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:41:17 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfAssociado" id="20EA0D61-DB5B-654A-8404-7CFB3D1F36C1">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-16 00:33:14 UTC</createdTime>
+<generatorID>2BB2BE9B-5138-D14D-BE92-A087388ED528</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<referedAttribute>90EC1AB4-5566-E5D7-9FE0-FA9DE4C5E42E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="177E1CE5-EC08-E1C5-D94C-CAAD321E09C5" name="ASSOCIADOS PK">
+<createdBy>arthursrg206</createdBy>
+<createdTime>2025-05-15 23:43:08 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="DF71DFD2-23E7-8E78-689E-A8C8E23E9EC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85CB87A0-5B62-854C-9CB2-86B3993AD07A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
